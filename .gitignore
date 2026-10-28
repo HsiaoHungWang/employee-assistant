@@ -1,0 +1,29 @@
+# 機密
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 後端執行時產生（DB 會自動重建、logs 為呼叫紀錄）
+backend/data/
+backend/logs/
+*.db-journal
+
+# 前端
+node_modules/
+dist/
+npm-debug.log*
+*.log
+
+# 編輯器 / 作業系統
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
